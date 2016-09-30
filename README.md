@@ -1,6 +1,5 @@
 ### Info
-**Dương Vì Phát**
-**Email**: viphat(at)gmail.com
 
+**Dương Vì Phát** - **Email**: viphat(at)gmail.com
 
-###
+### Challenge
