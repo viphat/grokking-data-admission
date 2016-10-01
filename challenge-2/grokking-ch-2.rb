@@ -1,3 +1,8 @@
+# Answer of 2.1 is 1842 people
+# Answer of 2.2 is 2441 people
+# For 2.3, please see results at link https://github.com/viphat/grokking-data-admission/blob/master/challenge-2/c2-3.csv
+# For 2.4, please see results at link https://github.com/viphat/grokking-data-admission/blob/master/challenge-2/c2-4.csv
+
 require 'csv'
 
 class GrokkingCh2

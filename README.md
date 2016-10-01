@@ -3,16 +3,69 @@
 
 ### Info
 
-**Dương Vì Phát** - **Email**: viphat(at)gmail.com
+**Dương Vì Phát** - Ruby on Rails Developer - **Email**: viphat(at)gmail.com
 
 ### Challenge 1
 
+#### Solution
 
+> [https://github.com/viphat/grokking-data-admission/blob/master/challenge-1.md](https://github.com/viphat/grokking-data-admission/blob/master/challenge-1.md)
+
+```
+In this (contrived) scenario, orders from an e-commerce service are given to you as files.
+The format is:
+<unix_timestamp>,<user_id>,<unique item name>
+
+For example:
+
+1473772369,13579,Art-Insight-Science-Engineering-Complexity
+1473792316,1651326,Designing-Data-Intensive-Applications
+
+The information in each file is sorted in increasing time order.
+You receive around 10 files per day, each file can be around 1 GB in size.
+
+To gain insight in user order behavior, you need to extract a distribution of
+orders for an item within a selected time range (i.e Book X, from Aug 10 to Aug 12)
+
+Propose how you would achieve this.
+If you decide to write a program, give us the pseudo code
+```
 
 ### Challenge 2
 
+#### Result
+
+- **2.1**: `1842`
+
+- **2.2**: `2441`
+
+- **2.3**: [https://github.com/viphat/grokking-data-admission/blob/master/challenge-2/c2-3.csv](https://github.com/viphat/grokking-data-admission/blob/master/challenge-2/c2-3.csv)
+
+- **2.4**: [https://github.com/viphat/grokking-data-admission/blob/master/challenge-2/c2-4.csv](https://github.com/viphat/grokking-data-admission/blob/master/challenge-2/c2-4.csv)
+
+#### Solution
+
+> [https://github.com/viphat/grokking-data-admission/blob/master/challenge-2/grokking-ch-2.rb](https://github.com/viphat/grokking-data-admission/blob/master/challenge-2/grokking-ch-2.rb)
+
+```
+For the given dataset
+      Excel format: https://docs.google.com/spreadsheets/d/1U43NTwDYRlsOZqjHlCvFhCwT6FPREJ3iEPJc-hbksok/edit?usp=sharing
+       CSV format: https://drive.google.com/open?id=0B3dHGVpTXDOhOE8yZXBObGpUX1U
+Please perform some data analysis and answer the following questions:
+- For people age, how many people are older than Mark Zuckerberg ? Hint: His birthday is May 14, 1984
+- For province, how many people are living in Ho Chi Minh City ?
+- The list of people who live in Ho Chi Minh City, age less than 20 and gender is “Female”
+- The list of people who recruited on weekend from 6 PM to 10 PM, live in Ho Chi Minh City or Ha Noi City
+
+Please submit the answers together with your work (Python code, SQL code or any other tools that you use)
+```
+
 
 ### Challenge 3
+
+#### Solution
+
+> [https://github.com/viphat/grokking-data-admission/blob/master/challenge-3/postgres.sql](https://github.com/viphat/grokking-data-admission/blob/master/challenge-3/postgres.sql)
 
 ```
 Given the following purchases table that record all purchases of an online ecommerce store:
